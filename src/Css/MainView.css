@@ -1,0 +1,154 @@
+.MainViewContainer {
+  width: 100%;
+  height: 90%;
+  background-color: #343434;
+}
+.MainViewTitleContainer {
+  height: 40px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: flex-end;
+  background-color: #141414;
+  border-radius: 10px;
+}
+.MainViewTitle {
+  color: #fffffc;
+  margin: 0px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-size: 20px;
+  align-self: center;
+}
+.MainViewSubTitle {
+  color: #fffffc;
+  margin: 0px;
+  margin-left: 20px;
+
+  font-weight: normal;
+  font-size: 12px;
+}
+.MainViewFilterContainer {
+  height: 75px;
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.MainViewFilterItemContainer {
+  flex: 1;
+}
+.MainViewFilterItem {
+  flex: 1;
+  flex-direction: column;
+  max-width: 10vw;
+  margin-top: 5px;
+}
+.MainViewFilterHeader {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(211, 211, 211);
+  margin-left: 5px;
+}
+.MainViewFilterSpacer {
+  font-weight: bold;
+  height: 16px;
+  color: rgb(39, 39, 39);
+  margin-left: 5px;
+}
+.MainViewFilterInput {
+  background-color: rgb(85, 85, 85);
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  color: white;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.MainViewFilterButton {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 16px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 25px;
+  width: 150px;
+  color: rgb(29, 29, 29);
+}
+
+.MainViewTableContainer {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.MainViewTableContainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+.MainViewTableContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.MainViewTableContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(105, 105, 105);
+  outline: 1px solid rgb(116, 116, 116);
+}
+
+.MultiplesTableContainer {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.singleTable {
+  float: left;
+  width: 20%;
+  background-color: #555555;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.singleTableHeader {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.popupContent {
+  padding: 50px;
+  background-color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
+}
+
+.submitButtonBlue {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px;
+  background-color: "#343434";
+  color: "#fff";
+}
+.submitButtonBlue:hover {
+  background-color: #343434; /* Green */
+  color: "#fff";
+}
+
+.counterContainer {
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  text-align: center;
+  background-color: #141414;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
